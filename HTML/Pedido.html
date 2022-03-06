@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedidoSueñosPasteleros</title>
+</head>
+
+<body>
+    <header>
+        <h1>REALIZA TÚ PEDIDO</h1>
+    </header>
+    <form action="pedido.js">
+        <label for="Nombre">¿A qué nombre quedará el pedido?</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br><br>
+        <label for="Sabor">¿Sabor de tu pastel?</label>
+        <input type="text" id="Sabor" name="Sabor" placeholder="Sabor">
+        <br><br>
+        <label for="Decoración">Elige la decoración</label>
+        <br>
+        <input type="checkbox" name="Merengue" id="Merengue" value="Merengue"> Merengue
+        <br>
+        <input type="checkbox" name="Fruta" id="Fruta" value="Fruta"> Fruta
+        <br>
+        <input type="checkbox" name="Velas" id="Velas" value="Velas"> Velas
+        <br>
+        <input type="checkbox" name="Dedicatoria" id="Dedicatoria" value="Dedicatoria"> Dedicatoria
+        <br>
+        <label for="Fecha1">Fecha y hora de Entrega</label><br>
+        <input type="datetime-local" id="Fecha1" name="Fecha1">
+    </form>
+    <input type="reset" >
+    <input type="submit">
+</body>
