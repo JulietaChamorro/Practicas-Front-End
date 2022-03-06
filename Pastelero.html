@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueños Pasteleros Admin</title>
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Estilo de header */
+    header {
+        background-color: rgb(174, 252, 187);
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+
+    /* Crear 2 columnas con la misma posición en la fila */
+    nav {
+        float: left;
+        width: 50%;
+        height: 300px;
+        /* only for demonstration, should be removed */
+        background: rgb(245, 154, 237);
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    article {
+        float: left;
+        padding: 20px;
+        width: 50%;
+        background-color: #b0e6f3;
+        height: 300px;
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Estilo de footer */
+    footer {
+        background-color: rgb(235, 250, 148);
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 600px) {
+
+        nav,
+        article {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://www.zarla.com/images/zarla-sueo-pastelero-1x1-2400x2400-20210614-8x8gdj6k8w43m3vj7p99.png?crop=1:1,smart&width=250&dpr=2" alt="Logo Pastelería" width="100px">
+    <h1>Sueños Pasteleros</h1>
+    <h2>Endulza tu vida</h2>
+   
+</header>
+<div style="text-align: center;">
+    <h2>Pedidos Activos</h2>
+<table border="1px" float="", style="align-items: center;">
+    <thead bgcolor="pink">
+
+<tr>
+    <td>Nombre</td>
+    <td>Sabor</td>
+    <td>Decoraciones</td>
+    <td>Fecha y Hora</td>
+</tr>
+<tr>
+    <td>Julieta Chamorro</td>
+    <td>Chocolate</td>
+    <td>Velas y Dedicatoria</td>
+    <td>05/03/2021  13:00 pm</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</thead>
+</table>
+</div>
+
+<section>
+
+<nav>
+<h2>Insumos Sabores</h2>
+<ul>
+    <li>Tres leches ........................... 2 L</li>
+    <li>Chocolate helado ...................... 1 Kg de helado</li>
+    <li>Red velvet .............................5 Kg de harina RedV</li>
+    <li>Pay de limón ...........................3 kg de limón</li>
+    <li>Mil hojas ..............................1/2 kg de mantequilla</li>
+</ul>
+
+</nav>
+
+    <article>
+     <h2>Insumos Adornos</h2>
+      <ul>
+          <li>Merengue ................. 5 L</li>
+          <li>Fruta en almíbar.......... 3 Kg</li>
+          <li>Velas de cumpleaños ...... 100 piezas</li>
+          <li>Dedicatoria .............. 1 L (mermelada)</li>
+      </ul> 
+
+
+    </article>
+</section>
+<footer>
+<br><br>
+<p>Sueños Pasteleros</p>
+<p>Avenida Paseo de la Reforma 138 Tel. 5540285676</p>
+<p>Horarios L-V 08:00 - 22:00</p>
+</footer>
+
+</body>
+
+</html>
