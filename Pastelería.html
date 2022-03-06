@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueños Pasteleros</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(174, 252, 187);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 50%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: rgb(245, 154, 237);
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 50%;
+            background-color: #b0e6f3;
+            height: 300px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(235, 250, 148);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://www.zarla.com/images/zarla-sueo-pastelero-1x1-2400x2400-20210614-8x8gdj6k8w43m3vj7p99.png?crop=1:1,smart&width=250&dpr=2" alt="Logo Pastelería" width="100px">
+        <h1>Sueños Pasteleros</h1>
+    </header>
+        <h2>Endulza tu vida</h2>
+        <h3>Historia</h3>
+        <p>Sueños pasteleros se remonta a 1976 cuando la familia Quiroz, decidio emprender un negocio para todos aquellos visitantes que asistian
+            al pueblo de Morelia. Con la mentoría del Maestro pastelero José Soledad Martínez la familia Quiroz perfeccionaron la técnica Francesa
+            para la elaboración de los pasteles. Esta técnica acompañada de la elección de los ingredientes más frescos hacen de nuestros pasteles, 
+            una mezcla perfecta entre sabor y cariño.</p>
+ 
+<section>
+   
+<nav>
+    <h2>Sabores</h2>
+    <ul>
+        <li>Tres leches ........................... $250.00</li>
+        <li>Chocolate helado ...................... $185.00</li>
+        <li>Red velvet .............................$190.00</li>
+        <li>Pay de limón ...........................$150.00</li>
+        <li>Mil hojas ..............................$195.00</li>
+    </ul>
+   
+</nav>
+
+        <article>
+         <h2>Adornos</h2>
+          <ul>
+              <li>Merengue ................. $50.00</li>
+              <li>Fruta en almíbar.......... $70.00</li>
+              <li>Velas de cumpleaños ...... $25.00</li>
+              <li>Dedicatoria .............. $10.00</li>
+          </ul> 
+
+
+        </article>
+    </section>
+<footer>
+    <a href="./Pedido.html">
+    <input type="button" value="Ordena Aquí">
+    </a>
+    <br><br>
+</footer>
+  
+</body>
+
+</html>
